@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+$section-padding: 2rem 1rem;
+
+
+$dropdown-content-background-color: hsl(0, 0%, 48%);
+$dropdown-item-color: hsl(0, 0%, 86%);
+$dropdown-item-hover-background-color: hsl(0, 0%, 40%);
+$dropdown-item-hover-color: hsl(0, 0%, 86%);
+$dropdown-content-arrow: hsl(0, 0%, 29%);
+$dropdown-item-active-background-color: hsl(0, 0%, 29%);
+
+@import "~bulma/bulma.sass";
+
+
+.site-header,
+.site-header-container {
+  color: #fff;
+  background-color: #101012;
+}
+.site-header {
+  height: 333px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.site-header-container {
+  height: 333px;
+  padding-top: 20px;
+  background: #101012 url('../images/index-cover.jpg') center center;
+  background-size: cover;
+}
+

@@ -1,8 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: `WLAB`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `WLAB Tech Official website. `,
+    author: `@ako`,
+    languages: {
+      langs: ['en', 'ru', 'zh'],
+      defaultLangKey: 'en',
+    }
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -30,13 +34,14 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-intl`,
       options: {
         // language JSON resource path
         path: `${__dirname}/src/intl`,
         // supported language
-        languages: [`en`, `zh`],
+        languages: [`en`, `ru`, `zh`],
         // language file path
         defaultLanguage: `en`,
         // option to redirect to `/en` when connecting `/`
