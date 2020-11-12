@@ -28,7 +28,7 @@ const Header = ({ siteTitle }) => {
         </div>
       </div>
       <div className="site-menu" style={{ marginTop: "220px" }}>
-        <div className="level">
+        <div className="level is-mobile">
           <div className="level-left">
             <Link to="/about" className="has-text-primary is-size-5"><FormattedMessage id="about" /></Link>
           </div>

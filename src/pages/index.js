@@ -16,6 +16,9 @@ const IndexPage = () => {
       <div className="columns">
         <div className="column">
         </div>
+        <div className="column">
+          <h1 className="title brand-name"><FormattedMessage id="wlab_mini" /></h1>
+        </div>
       </div>
     </div>
   </Layout>)

@@ -5,6 +5,33 @@
 
   "about": "About",
 
+  "our_products_ttl": "Our Products",
+
+  "wlab_mini": "WLAB Mini",
+  "wlab_ring": "WLAB Ring",
+  "wlab_plus": "WLAB Plus",
+  "wlab_max": "WLAB Max",
+  "coming_soon": "Coming Soon",
+  "components": "Components",
+  "material": "Material",
+  "material_value_wlab_mini": "PCTG + ABS + PC",
+  "material_value_wlab_ring": "PCTG + ABS + PC",
+  "e_liquid_capacity": "E-liquid capacity",
+  "e_liquid_capacity_value_wlab_mini": "1.3 ml",
+  "e_liquid_capacity_value_wlab_ring": "1.5 ml",
+  "concentration_nicotine": "Concentration Nicotine",
+  "concentration_nicotine_value_wlab_mini": "0%–5%",
+  "concentration_nicotine_value_wlab_ring": "0%–5%",
+  "battery_capacity": "Battery capacity",
+  "battery_capacity_value_wlab_mini": "280 mAh",
+  "battery_capacity_value_wlab_ring": "350 mAh",
+  "puffs": "Puffs",
+  "puffs_value_walb_mini": "300",
+  "puffs_value_walb_ring": "400",
+  "size": "Size",
+  "size_value_wlab_mini": "92.0 × 19.3 × 9.6 mm",
+  "size_value_wlab_ring": "100.0 × 25.3 × 7.7 mm",
+
 
   "notfound": {
     "header": "NOT FOUND",

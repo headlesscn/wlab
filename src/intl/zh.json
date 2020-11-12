@@ -3,8 +3,34 @@
   "description": "Kick off your next, great Gatsby project with this default-starter-intl. This barebones starter ships with the main Gatsby configuration files you might need.",
   "author": "@wlabtech",
 
-  
   "about": "关于我们",
+
+  "our_products_ttl": "我们的产品",
+
+  "wlab_mini": "WLAB Mini",
+  "wlab_ring": "WLAB Ring",
+  "wlab_plus": "WLAB Plus",
+  "wlab_max": "WLAB Max",
+  "coming_soon": "即将呈现",
+  "components": "组件",
+  "material": "材质",
+  "material_value_wlab_mini": "PCTG + ABS + PC",
+  "material_value_wlab_ring": "PCTG + ABS + PC",
+  "e_liquid_capacity": "烟油容量",
+  "e_liquid_capacity_value_wlab_mini": "1.3 ml",
+  "e_liquid_capacity_value_wlab_ring": "1.5 ml",
+  "concentration_nicotine": "尼古丁含量",
+  "concentration_nicotine_value_wlab_mini": "0%–5%",
+  "concentration_nicotine_value_wlab_ring": "0%–5%",
+  "battery_capacity": "电池容量",
+  "battery_capacity_value_wlab_mini": "280 mAh",
+  "battery_capacity_value_wlab_ring": "350 mAh",
+  "puffs": "口数",
+  "puffs_value_walb_mini": "300",
+  "puffs_value_walb_ring": "400",
+  "size": "尺寸",
+  "size_value_wlab_mini": "92.0 × 19.3 × 9.6 mm",
+  "size_value_wlab_ring": "100.0 × 25.3 × 7.7 mm",
 
 
   "notfound": {

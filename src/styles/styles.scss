@@ -29,4 +29,11 @@ $dropdown-item-active-background-color: hsl(0, 0%, 29%);
   background: #101012 url('../images/index-cover.jpg') center center;
   background-size: cover;
 }
-
+.site-nav-brand img {
+  width: 144px;
+  height: 32px;
+  @include mobile {
+    width: 108px;
+    height: 24px;
+  }
+}
