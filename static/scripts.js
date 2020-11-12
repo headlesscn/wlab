@@ -11,5 +11,9 @@ $( document ).ready(function() {
   $('#language-switch-menu a').click(function() {
     $('#language-switch').removeClass("is-active");
   });
+
+  lightGallery(document.getElementById('lightgallery'), {
+    thumbnail: true
+  });
 });
 

@@ -30,7 +30,6 @@ const Header = ({ siteTitle }) => {
       <div className="site-menu" style={{ marginTop: "220px" }}>
         <div className="level is-mobile">
           <div className="level-left">
-            <Link to="/about" className="has-text-primary is-size-5"><FormattedMessage id="about" /></Link>
           </div>
           <div className="level-right">
             <a href="https://www.facebook.com/WLAB-108086620855319/" title="Facebook" target="_blank" className="mr-2">

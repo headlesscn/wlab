@@ -37,3 +37,59 @@ $dropdown-item-active-background-color: hsl(0, 0%, 29%);
     height: 24px;
   }
 }
+
+.title {
+  @include mobile {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+.our-products-container {
+  margin-bottom: 4rem;
+}
+
+.brand-name {
+  text-transform: uppercase;
+}
+.brand-name-mobile,
+.brand-name-desktop-reverse {
+  display: none;
+  @include mobile {
+    display: block;
+  }
+}
+.brand-name-desktop,
+.brand-name-mobile-reverse {
+  @include mobile {
+    display: none;
+  }
+}
+.product-cover-container {
+  text-align: center;
+}
+.product-detail-container {
+  @include mobile {
+    font-size: 0.875rem;
+  }
+}
+.product-detail-container table,
+.product-detail-container .gallery-container {
+  @include mobile {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.gallery-container img {
+  height: 108px;
+}
+
+.product-section-nonfirst {
+  margin-top: 4rem;
+}
+.product-section-even {
+  @include mobile {
+    flex-direction: column-reverse;
+    display: flex;
+  }
+}
