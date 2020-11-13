@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+
 $section-padding: 2rem 1rem;
 
 
@@ -48,9 +49,27 @@ $dropdown-item-active-background-color: hsl(0, 0%, 29%);
 .our-products-container {
   margin-bottom: 4rem;
   text-align: center;
+  .styled-title {
+    text-align: left;
+  }
+}
+.about-us-container {
+  text-align: left;
+  @include from($tablet) {
+    margin-left: 4rem;
+  }
+  p {
+    @include mobile {
+      font-size: 0.875rem;
+    }
+  }
 }
 
+.styled-title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .brand-name {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-transform: uppercase;
 }
 .brand-name-mobile,
@@ -85,7 +104,7 @@ $dropdown-item-active-background-color: hsl(0, 0%, 29%);
   height: 108px;
 }
 
-.product-section-nonfirst {
+.product-section {
   margin-top: 4rem;
 }
 .product-section-even {

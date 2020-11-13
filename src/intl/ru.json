@@ -4,8 +4,11 @@
   "author": "@wiziple",
 
   "about": "About",
+  "about_us": "About Us",
 
   "our_products_ttl": "Our Products",
+
+  "index_about_text": "WLAB is one of the e-cigarette brands under WLAB (Shenzhen) Technology Co., Ltd., and a cutting-edge design brand of domestic e-vaporized cigarettes. The company is dedicated to R&D, design, production, sales and wholesale of consumer-grade electric atomizers and their derivatives. Driven by user experience, it integrates high-end aesthetic design and world-leading art technology.",
 
   "wlab_mini": "WLAB Mini",
   "wlab_ring": "WLAB Ring",
@@ -18,21 +21,21 @@
   "material_value_wlab_ring": "PCTG + ABS + PC",
   "e_liquid_capacity": "E-liquid capacity",
   "e_liquid_capacity_value_wlab_mini": "1.3 ml",
-  "e_liquid_capacity_value_wlab_ring": "1.3 ml",
+  "e_liquid_capacity_value_wlab_ring": "1.5 ml",
   "concentration_nicotine": "Concentration Nicotine",
   "concentration_nicotine_value_wlab_mini": "0%–5%",
   "concentration_nicotine_value_wlab_ring": "0%–5%",
   "battery_capacity": "Battery capacity",
   "battery_capacity_value_wlab_mini": "280 mAh",
-  "battery_capacity_value_wlab_ring": "280 mAh",
+  "battery_capacity_value_wlab_ring": "350 mAh",
   "puffs": "Puffs",
   "puffs_value_walb_mini": "300",
-  "puffs_value_walb_ring": "300",
+  "puffs_value_walb_ring": "400",
   "size": "Size",
   "size_value_wlab_mini": "92.0 × 19.3 × 9.6 mm",
-  "size_value_wlab_ring": "92.0 × 19.3 × 9.6 mm",
+  "size_value_wlab_ring": "100.0 × 25.3 × 7.7 mm",
 
-  
+
   "notfound": {
     "header": "NOT FOUND",
     "description": "You just hit a route that doesn't exist... the sadness."
