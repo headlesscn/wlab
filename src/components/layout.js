@@ -27,10 +27,6 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Helmet>
-        <script defer src={withPrefix('jquery.js')} type="text/javascript" />
-        <script defer src={withPrefix('scripts.js')} type="text/javascript" />
-      </Helmet>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div className="section">
         <main>{children}</main>

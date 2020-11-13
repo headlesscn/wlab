@@ -56,7 +56,7 @@ $dropdown-item-active-background-color: hsl(0, 0%, 29%);
     text-align: left;
   }
   img {
-    height: 260px;
+    max-height: 260px;
   }
 }
 .about-us-container {
@@ -116,7 +116,12 @@ $dropdown-item-active-background-color: hsl(0, 0%, 29%);
     margin-right: auto;
   }
 }
-.gallery-container img {
-  height: 108px;
+.gallery-container {
+  @include mobile {
+    overflow: scroll;
+  }
+  img {
+    height: 108px;
+  }
 }
 
