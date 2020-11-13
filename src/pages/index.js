@@ -23,6 +23,13 @@ import WlabRingImg1 from "../images/wlab-ring-1.jpg"
 import WlabRingImg2 from "../images/wlab-ring-2.jpg"
 import WlabRingImg3 from "../images/wlab-ring-3.jpg"
 
+import Flavor1 from "../images/flavor-1.jpg"
+import Flavor2 from "../images/flavor-2.jpg"
+import Flavor3 from "../images/flavor-3.jpg"
+import Flavor4 from "../images/flavor-4.jpg"
+import Flavor5 from "../images/flavor-5.jpg"
+import Flavor6 from "../images/flavor-6.jpg"
+
 
 const IndexPage = () => {
   const intl = useIntl()
@@ -38,7 +45,7 @@ const IndexPage = () => {
       <div className="our-products-container columns">
         <div className="column is-three-fifths">
           <div>
-            <h1 className="title styled-title is-size-5">{intl.formatMessage({ id: "our_products_ttl" })}</h1>
+            <h1 className="title styled-title is-size-4">{intl.formatMessage({ id: "our_products_ttl" })}</h1>
           </div>
           <div className="columns is-mobile">
             <div className="column">
@@ -68,7 +75,7 @@ const IndexPage = () => {
           </div>
         </div>
         <div className="column about-us-container">
-          <h1 className="title styled-title is-size-5">{intl.formatMessage({ id: "about_us" })}</h1>
+          <h1 className="title styled-title is-size-4">{intl.formatMessage({ id: "about_us" })}</h1>
           <p>{intl.formatMessage({ id: "index_about_text" })}</p>
         </div>
       </div>
@@ -167,6 +174,30 @@ const IndexPage = () => {
         <div className="column product-cover-container">
           <h1 className="title brand-name brand-name-mobile">{intl.formatMessage({ id: "wlab_ring" })}</h1>
           <img src={WlabRingCover} alt={intl.formatMessage({ id: "wlab_ring" })} />
+        </div>
+      </div>
+
+      <div className="product-section">
+        <h1 className="title styled-title is-size-4 title-cross mb-6">{intl.formatMessage({ id: "many_flavors" })}</h1>
+      </div>
+      <div className="columns is-mobile is-multiline">
+        <div className="column is-half-mobile is-one-third-tablet">
+          <img src={Flavor1} alt="" />
+        </div>
+        <div className="column is-half-mobile is-one-third-tablet">
+          <img src={Flavor2} alt="" />
+        </div>
+        <div className="column is-half-mobile is-one-third-tablet">
+          <img src={Flavor3} alt="" />
+        </div>
+        <div className="column is-half-mobile is-one-third-tablet">
+          <img src={Flavor4} alt="" />
+        </div>
+        <div className="column is-half-mobile is-one-third-tablet">
+          <img src={Flavor5} alt="" />
+        </div>
+        <div className="column is-half-mobile is-one-third-tablet">
+          <img src={Flavor6} alt="" />
         </div>
       </div>
     </div>

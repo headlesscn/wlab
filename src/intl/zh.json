@@ -36,6 +36,9 @@
   "size_value_wlab_ring": "100.0 × 25.3 × 7.7 mm",
 
 
+  "many_flavors": "多种口味",
+
+
   "notfound": {
     "header": "NOT FOUND",
     "description": "You just hit a route that doesn't exist... the sadness."
