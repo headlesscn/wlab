@@ -36,7 +36,7 @@ const IndexPage = () => {
   
   return (<Layout>
     <Helmet>
-      <link href={withPrefix('lightgallery.css')} rel="stylesheet" />
+      <link href="https://sachinchoolur.github.io/lightgallery.js/lightgallery/css/lightgallery.css" rel="stylesheet" />
       <script defer src={withPrefix('lightgallery.js')} type="text/javascript" />
       <script defer src={withPrefix('lg-thumbnail.js')} type="text/javascript" />
     </Helmet>
