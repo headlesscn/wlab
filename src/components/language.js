@@ -10,11 +10,21 @@ const languageName = {
 }
 
 const Language = () => {
+  const openMenu = () => {
+    var switchArea = document.getElementById("language-switch");
+    switchArea.classList.toggle('is-active');
+  }
+  const handleClick = (language) => {
+    var switchArea = document.getElementById("language-switch");
+    switchArea.classList.remove("is-active");
+
+    changeLocale(language);
+  }
   return (
     <div>
       <div className="dropdown is-right" id="language-switch">
         <div className="dropdown-trigger">
-          <button className="button is-black" aria-haspopup="true" aria-controls="dropdown-menu" id="language-switch-btn">
+          <button className="button is-black" aria-haspopup="true" aria-controls="dropdown-menu" id="language-switch-btn" onClick={() => openMenu()}>
             <img src={IconLanguage} alt="" className="mr-2" />
             <span className="mr-2">
               <IntlContextConsumer>{({ language: currentLanguage }) => (
@@ -31,7 +41,7 @@ const Language = () => {
                 languages.map(language => (
                   <a
                     key={language}
-                    onClick={() => changeLocale(language)}
+                    onClick={() => handleClick(language)}
                     className={currentLocale === language ? `dropdown-item is-active` : `dropdown-item`}
                   >
                     {languageName[language]}

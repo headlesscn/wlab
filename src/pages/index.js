@@ -1,6 +1,6 @@
 import React from "react"
 import { withPrefix } from "gatsby"
-import { FormattedMessage, Link, useIntl } from "gatsby-plugin-intl"
+import { FormattedMessage, useIntl } from "gatsby-plugin-intl"
 
 import "../styles/styles.scss"
 
