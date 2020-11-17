@@ -37,9 +37,7 @@ const IndexPage = () => {
   return (<Layout>
     <Helmet>
       <link href="https://sachinchoolur.github.io/lightgallery.js/lightgallery/css/lightgallery.css" rel="stylesheet" />
-      <script src="https://code.jquery.com/jquery-2.2.4.min.js" type="text/javascript" />
       <script defer src={withPrefix('lightgallery.js')} type="text/javascript" />
-      <script defer src={withPrefix('lg-thumbnail.js')} type="text/javascript" />
       <script defer src={withPrefix('scripts.js')} type="text/javascript" />
     </Helmet>
     <SEO title={intl.formatMessage({ id: "title" })} />
